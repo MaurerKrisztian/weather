@@ -1,13 +1,12 @@
 
     function getData(){
-        fetch('http://api.openweathermap.org/data/2.5/weather?q=Szeged,hu&units=metric&appid=cb314e9c43aa9ca725d76955266fca8a')
+        fetch('https://api.openweathermap.org/data/2.5/weather?q=Szeged,hu&units=metric&appid=cb314e9c43aa9ca725d76955266fca8a')
         .then((res) => res.json())
         .then(function(data){
 
           var weatherData = {
              temp: data.main.temp,
              wind : data.wind.speed,
-             rain : data.rain["3h"],
              weather : data.weather.description
           };
 
