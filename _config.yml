@@ -1,1 +1,4 @@
 theme: jekyll-theme-cayman
+
+- name: Deploy to Heroku
+  uses: AkhileshNS/heroku-deploy@v3.0.0
