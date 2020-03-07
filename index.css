@@ -1,0 +1,42 @@
+body{
+    background: rgb(24, 24, 24);
+}
+.weather{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    max-width: 500px;
+    max-height: 900px;
+
+
+    margin: auto;
+    width: 50%;
+    border: 3px solid gray;
+    padding: 10px;
+    border-radius: 10%;
+}
+
+#temp_now{
+    color: red;
+    font-size: 200px;
+    text-align: center;
+}
+
+#rain_now{
+    color: lightcoral;
+    font-size: 80px;
+}
+
+#country_name{
+    font-size: 80px;
+}
+
+#humidity_now{
+    color: lightcoral;
+}
+
+#wind_now{
+    color: lightcoral;
+    font-size: 60px;
+}
